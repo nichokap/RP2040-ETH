@@ -1,5 +1,5 @@
 # PR2040-ETH
-Personal projects on Waveshare PR2040-ETH
+Personal projects on Waveshare RP2040-ETH
 
 I tried this powerful and cheap microcontroller to implement simple projects. 
 
