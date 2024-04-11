@@ -2,7 +2,7 @@ from machine import Pin
 from neopixel import NeoPixel
 
 
-#Configure the built-in WS2812 LED pins and set the number of LEDs to 1
+#Configure the built-in WS2812 LED pins of RP2040-ETH and set the number of LEDs to 1
 strip = NeoPixel(Pin(25), 1)
 
 #Set the color of the first and only LED
