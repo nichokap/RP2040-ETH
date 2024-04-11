@@ -1,6 +1,6 @@
 # 1. Built-in LED
 
-In this example I just control the built-in LED
+In this example I just control the built-in LED of the RP2040-ETH chip
 
 # 2. Configure the CH9120 chip
 
