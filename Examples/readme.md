@@ -1,3 +1,6 @@
+To try the examples you first need to install a micropython firmware to your board.
+Please look <a href="https://github.com/nichokap/RP2040-ETH/tree/main/MicroPython%20Firmware">here</a>
+
 # 1. Built-in LED
 
 In this example I just control the built-in LED of the RP2040-ETH chip
