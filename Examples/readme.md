@@ -21,14 +21,14 @@ To test the operation you can download and use the freeware [Hercules SETUP util
 4. Then click on Connect
 5. Every second you should receive a t character.
 6. Try to send the "f" character by writing on the first row of the Send section and clicking the Send button. (HEX should stay unclicked).The built-in LED of the RP2040-ETH should turn off.
-8. Try to send the "n" character by writing on the first row of the Send section and clicking the Send button. (HEX should stay unclicked).The built-in LED of the RP2040-ETH should turn on.
+8. Try to send the "n" character by writing on the second row of the Send section and clicking the Send button. (HEX should stay unclicked).The built-in LED of the RP2040-ETH should turn on.
 
 ![HerculesSetupTool](https://github.com/nichokap/RP2040-ETH/blob/main/Examples/3.%20Control%20built-in%20LED%20with%20TCP%20commands/HerculesTcpClientTool.PNG?raw=true)
 
 ### 4. Modbus RTU over TCP (encapsulated) client
 This is just a port of the [rtu_client_example.py](https://github.com/brainelectronics/micropython-modbus/blob/develop/examples/rtu_client_example.py) of the [brainelectronics
 /micropython-modbus](https://github.com/brainelectronics/micropython-modbus) that is modified to use the the RP2040-ETH pins 20 and 21, i.e. the built-in pins connected from the RP2040 chip to the CH9120 serial to ethernet converter chip. 
-The boot.py and ch9120.py files from Example 2 need to be used along with the main.py in order for the ch9120 chip to be initialized properly.
+The boot.py and ch9120.py files from [Example 2](/2.%20ch9120%20config) need to be used along with the main.py in order for the ch9120 chip to be initialized properly.
 
 ### 5. Modbus client - Pin status as Input Register
 This is just a modification of the Example 4 that reads the status of Pin 6 and responds its status as an Input Register value.
