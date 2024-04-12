@@ -31,4 +31,4 @@ This is just a port of the [rtu_client_example.py](https://github.com/brainelect
 The boot.py and ch9120.py files from Example 2 need to be used along with the main.py in order for the ch9120 chip to be initialized properly.
 
 ### 5. Modbus client - Pin status as Input Register
-This is just a modification of the Example 4 that reads the status of Pin 6 and responds the value as Input Register.
+This is just a modification of the Example 4 that reads the status of Pin 6 and responds its status as an Input Register value.
